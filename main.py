@@ -19,5 +19,3 @@ for i in range(n):
     predict = gnb.predict(test_labels)
 
     print(f"{i + 1}. {data.get_effect_name(i)}: {predict}")
-
-# print((6 + 9 + 4 + 9 + 10 + 6 + 10 + 10 + 3 + 8 + 10 + 8 + 9 + 7 + 4 + 10 + 4 + 10 + 10 + 10 + 8 + 10) / (22 * 10))
